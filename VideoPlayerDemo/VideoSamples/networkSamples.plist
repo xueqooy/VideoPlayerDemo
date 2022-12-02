@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mp4</key>
+	<string>https://streams.videolan.org/streams/mp4/Mr_MrsSmith-h264_aac.mp4</string>
+	<key>mov</key>
+	<string></string>
+	<key>avi</key>
+	<string>https://streams.videolan.org/streams/avi/Bleach720p120fps.avi</string>
+	<key>mkv</key>
+	<string>https://streams.videolan.org/streams/mkv/H264_in_MKV_regression_in0.9/smooth-in-0.8.6-but-choppy-in-0.9.8a.mkv</string>
+	<key>flv</key>
+	<string>https://streams.videolan.org/streams/flv/demo-none.flv</string>
+	<key>webm</key>
+	<string></string>
+	<key>rmvb</key>
+	<string>https://streams.videolan.org/streams/real/spygames-2MB.rmvb</string>
+	<key>wmv</key>
+	<string></string>
+</dict>
+</plist>
