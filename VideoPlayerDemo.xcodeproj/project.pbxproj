@@ -7,7 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		57C5E0755635A5FAD717E194 /* Pods_VideoPlayerPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14947C6882D1C322D3DFD89B /* Pods_VideoPlayerPractice.framework */; };
+		6D1AF8442941AD2200B012B5 /* sample.mov in Resources */ = {isa = PBXBuildFile; fileRef = 6DE3035C293771C700E8A60A /* sample.mov */; };
+		6D1AF8452941AD2500B012B5 /* sample.mkv in Resources */ = {isa = PBXBuildFile; fileRef = 6DE3035D293771C700E8A60A /* sample.mkv */; };
+		6D1AF8462941AD2700B012B5 /* sample.rmvb in Resources */ = {isa = PBXBuildFile; fileRef = 6DE3035E293771C700E8A60A /* sample.rmvb */; };
+		6D1AF8472941AD2900B012B5 /* sample.webm in Resources */ = {isa = PBXBuildFile; fileRef = 6DE3035F293771C700E8A60A /* sample.webm */; };
+		6D1AF8482941AD2B00B012B5 /* sample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE30360293771C700E8A60A /* sample.mp4 */; };
+		6D1AF8492941AD2D00B012B5 /* sample.wmv in Resources */ = {isa = PBXBuildFile; fileRef = 6DE30361293771C700E8A60A /* sample.wmv */; };
+		6D1AF84A2941AD2F00B012B5 /* sample.avi in Resources */ = {isa = PBXBuildFile; fileRef = 6DE30362293771C700E8A60A /* sample.avi */; };
+		6D1AF84B2941AD3200B012B5 /* sample.flv in Resources */ = {isa = PBXBuildFile; fileRef = 6DE30363293771C700E8A60A /* sample.flv */; };
+		6D1AF84C2941AD3600B012B5 /* networkSamples.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DE303DB293A3B0100E8A60A /* networkSamples.plist */; };
+		6D1AF84E2941AF1A00B012B5 /* VideoFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1AF84D2941AF1A00B012B5 /* VideoFormat.swift */; };
+		6D1AF84F2941AF1A00B012B5 /* VideoFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1AF84D2941AF1A00B012B5 /* VideoFormat.swift */; };
+		6D1AF8502941AF1A00B012B5 /* VideoFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1AF84D2941AF1A00B012B5 /* VideoFormat.swift */; };
+		6D1AF8512941B0B600B012B5 /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE3033D29364EE900E8A60A /* libc++.1.tbd */; };
+		6D1AF8522941B0E600B012B5 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE3033B293649E100E8A60A /* VideoToolbox.framework */; };
+		6D1AF8532941B15600B012B5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE30337293649D300E8A60A /* QuartzCore.framework */; };
+		6D1AF8542941B15D00B012B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE30339293649D800E8A60A /* UIKit.framework */; };
+		6D1AF8552941B16400B012B5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE30335293649C800E8A60A /* OpenGLES.framework */; };
+		6D1AF8562941B17100B012B5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE30333293649C100E8A60A /* MobileCoreServices.framework */; };
+		6D1AF8572941B17700B012B5 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE30331293649B800E8A60A /* MediaPlayer.framework */; };
+		6D1AF8582941B17E00B012B5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE3032F293649B100E8A60A /* libz.tbd */; };
+		6D1AF8592941B18600B012B5 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE3032D293649A900E8A60A /* libbz2.tbd */; };
+		6D1AF85A2941B18B00B012B5 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE3032B2936499B00E8A60A /* CoreVideo.framework */; };
+		6D1AF85B2941B19100B012B5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE303292936499500E8A60A /* CoreMedia.framework */; };
+		6D1AF85C2941B19700B012B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE303272936498E00E8A60A /* CoreGraphics.framework */; };
+		6D1AF85D2941B1A000B012B5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE303252936498700E8A60A /* AVFoundation.framework */; };
+		6D1AF85E2941B1A900B012B5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE303232936498200E8A60A /* AudioToolbox.framework */; };
+		6D637AF7293EDF3C001009A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D637AF6293EDF3C001009A4 /* AppDelegate.swift */; };
+		6D637AF9293EDF3C001009A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D637AF8293EDF3C001009A4 /* SceneDelegate.swift */; };
+		6D637AFB293EDF3C001009A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D637AFA293EDF3C001009A4 /* ViewController.swift */; };
+		6D637AFE293EDF3C001009A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D637AFC293EDF3C001009A4 /* Main.storyboard */; };
+		6D637B00293EDF3D001009A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D637AFF293EDF3D001009A4 /* Assets.xcassets */; };
+		6D637B03293EDF3D001009A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D637B01293EDF3D001009A4 /* LaunchScreen.storyboard */; };
+		6D637B1129409BCF001009A4 /* VLCPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D637B1029409BCF001009A4 /* VLCPlayerManager.swift */; };
 		6D83CB382936201000AA1015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D83CB372936201000AA1015 /* AppDelegate.swift */; };
 		6D83CB3A2936201000AA1015 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D83CB392936201000AA1015 /* SceneDelegate.swift */; };
 		6D83CB3C2936201000AA1015 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D83CB3B2936201000AA1015 /* ViewController.swift */; };
@@ -76,14 +108,29 @@
 		6DE303DA293A1A5A00E8A60A /* PlayerAdaptee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE3035329371C0400E8A60A /* PlayerAdaptee.swift */; };
 		6DE303DC293A3B0100E8A60A /* networkSamples.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DE303DB293A3B0100E8A60A /* networkSamples.plist */; };
 		6DE303DD293A3D0600E8A60A /* networkSamples.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DE303DB293A3B0100E8A60A /* networkSamples.plist */; };
+		70BBA6AC6E981620F972D4EC /* Pods_VideoPlayerDemo_ZFPlayerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB3428A5C8D84454F7032A1 /* Pods_VideoPlayerDemo_ZFPlayerDemo.framework */; };
+		E38048CCC531F52D0DAC0BE6 /* Pods_VideoPlayerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CD02BDA78F8C9D603A5D4E /* Pods_VideoPlayerDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		14947C6882D1C322D3DFD89B /* Pods_VideoPlayerPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoPlayerPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		137B1887583507716E2DC35F /* Pods-ZFPlayerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFPlayerDemo.debug.xcconfig"; path = "Target Support Files/Pods-ZFPlayerDemo/Pods-ZFPlayerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		152D7B6888A7F0E64E17AD09 /* Pods-VideoPlayerPractice-VideoPlayerPracticeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayerPractice-VideoPlayerPracticeUITests.debug.xcconfig"; path = "Target Support Files/Pods-VideoPlayerPractice-VideoPlayerPracticeUITests/Pods-VideoPlayerPractice-VideoPlayerPracticeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1A07443823FA007D3EDEC4EA /* Pods-VideoPlayerPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayerPractice.release.xcconfig"; path = "Target Support Files/Pods-VideoPlayerPractice/Pods-VideoPlayerPractice.release.xcconfig"; sourceTree = "<group>"; };
+		208ED1846A666F097922E986 /* Pods-VideoPlayerDemo-ZFPlayerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayerDemo-ZFPlayerDemo.debug.xcconfig"; path = "Target Support Files/Pods-VideoPlayerDemo-ZFPlayerDemo/Pods-VideoPlayerDemo-ZFPlayerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		258910331DF0A1D5AC52BC14 /* Pods-VideoPlayerPractice-VideoPlayerPracticeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayerPractice-VideoPlayerPracticeUITests.release.xcconfig"; path = "Target Support Files/Pods-VideoPlayerPractice-VideoPlayerPracticeUITests/Pods-VideoPlayerPractice-VideoPlayerPracticeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		328FB013150C5F0C5317BD3E /* Pods-VideoPlayerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayerDemo.release.xcconfig"; path = "Target Support Files/Pods-VideoPlayerDemo/Pods-VideoPlayerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		62CD02BDA78F8C9D603A5D4E /* Pods_VideoPlayerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoPlayerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BDF9C56FEB8DE531DA47006 /* Pods-VideoPlayerPracticeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayerPracticeTests.release.xcconfig"; path = "Target Support Files/Pods-VideoPlayerPracticeTests/Pods-VideoPlayerPracticeTests.release.xcconfig"; sourceTree = "<group>"; };
+		6D1AF84D2941AF1A00B012B5 /* VideoFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFormat.swift; sourceTree = "<group>"; };
+		6D637AF4293EDF3B001009A4 /* ZFPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D637AF6293EDF3C001009A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D637AF8293EDF3C001009A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6D637AFA293EDF3C001009A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D637AFD293EDF3C001009A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D637AFF293EDF3D001009A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D637B02293EDF3D001009A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D637B04293EDF3D001009A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D637B1029409BCF001009A4 /* VLCPlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VLCPlayerManager.swift; sourceTree = "<group>"; };
 		6D83CB342936201000AA1015 /* VideoPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D83CB372936201000AA1015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D83CB392936201000AA1015 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,12 +172,38 @@
 		6DE303B7293A18DC00E8A60A /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		6DE303DB293A3B0100E8A60A /* networkSamples.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = networkSamples.plist; sourceTree = "<group>"; };
 		71AAC616914B295B36A46FA6 /* Pods_VideoPlayerPractice_VideoPlayerPracticeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoPlayerPractice_VideoPlayerPracticeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		765295D55122148E6B79DD2B /* Pods-VideoPlayerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayerDemo.debug.xcconfig"; path = "Target Support Files/Pods-VideoPlayerDemo/Pods-VideoPlayerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A40EF8997C258BBFE5FDD581 /* Pods-VideoPlayerDemo-ZFPlayerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayerDemo-ZFPlayerDemo.release.xcconfig"; path = "Target Support Files/Pods-VideoPlayerDemo-ZFPlayerDemo/Pods-VideoPlayerDemo-ZFPlayerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B496DDB574805FD3A5A2607D /* Pods_VideoPlayerPracticeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoPlayerPracticeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE169BD24A8053F3ACA86B76 /* Pods-VideoPlayerPracticeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayerPracticeTests.debug.xcconfig"; path = "Target Support Files/Pods-VideoPlayerPracticeTests/Pods-VideoPlayerPracticeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECB3428A5C8D84454F7032A1 /* Pods_VideoPlayerDemo_ZFPlayerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoPlayerDemo_ZFPlayerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE69D66863E5D73F04718D5B /* Pods-ZFPlayerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFPlayerDemo.release.xcconfig"; path = "Target Support Files/Pods-ZFPlayerDemo/Pods-ZFPlayerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F5C9EA11CC11CF080358696F /* Pods-VideoPlayerPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayerPractice.debug.xcconfig"; path = "Target Support Files/Pods-VideoPlayerPractice/Pods-VideoPlayerPractice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6D637AF1293EDF3B001009A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1AF85E2941B1A900B012B5 /* AudioToolbox.framework in Frameworks */,
+				6D1AF85D2941B1A000B012B5 /* AVFoundation.framework in Frameworks */,
+				6D1AF85C2941B19700B012B5 /* CoreGraphics.framework in Frameworks */,
+				6D1AF85B2941B19100B012B5 /* CoreMedia.framework in Frameworks */,
+				6D1AF85A2941B18B00B012B5 /* CoreVideo.framework in Frameworks */,
+				6D1AF8592941B18600B012B5 /* libbz2.tbd in Frameworks */,
+				6D1AF8582941B17E00B012B5 /* libz.tbd in Frameworks */,
+				6D1AF8572941B17700B012B5 /* MediaPlayer.framework in Frameworks */,
+				6D1AF8562941B17100B012B5 /* MobileCoreServices.framework in Frameworks */,
+				6D1AF8552941B16400B012B5 /* OpenGLES.framework in Frameworks */,
+				6D1AF8542941B15D00B012B5 /* UIKit.framework in Frameworks */,
+				6D1AF8532941B15600B012B5 /* QuartzCore.framework in Frameworks */,
+				6D1AF8512941B0B600B012B5 /* libc++.1.tbd in Frameworks */,
+				6D1AF8522941B0E600B012B5 /* VideoToolbox.framework in Frameworks */,
+				70BBA6AC6E981620F972D4EC /* Pods_VideoPlayerDemo_ZFPlayerDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6D83CB312936201000AA1015 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -149,7 +222,7 @@
 				6DE303282936498E00E8A60A /* CoreGraphics.framework in Frameworks */,
 				6DE303262936498700E8A60A /* AVFoundation.framework in Frameworks */,
 				6DE303242936498200E8A60A /* AudioToolbox.framework in Frameworks */,
-				57C5E0755635A5FAD717E194 /* Pods_VideoPlayerPractice.framework in Frameworks */,
+				E38048CCC531F52D0DAC0BE6 /* Pods_VideoPlayerDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,8 +260,29 @@
 				258910331DF0A1D5AC52BC14 /* Pods-VideoPlayerPractice-VideoPlayerPracticeUITests.release.xcconfig */,
 				BE169BD24A8053F3ACA86B76 /* Pods-VideoPlayerPracticeTests.debug.xcconfig */,
 				6BDF9C56FEB8DE531DA47006 /* Pods-VideoPlayerPracticeTests.release.xcconfig */,
+				765295D55122148E6B79DD2B /* Pods-VideoPlayerDemo.debug.xcconfig */,
+				328FB013150C5F0C5317BD3E /* Pods-VideoPlayerDemo.release.xcconfig */,
+				137B1887583507716E2DC35F /* Pods-ZFPlayerDemo.debug.xcconfig */,
+				EE69D66863E5D73F04718D5B /* Pods-ZFPlayerDemo.release.xcconfig */,
+				208ED1846A666F097922E986 /* Pods-VideoPlayerDemo-ZFPlayerDemo.debug.xcconfig */,
+				A40EF8997C258BBFE5FDD581 /* Pods-VideoPlayerDemo-ZFPlayerDemo.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		6D637AF5293EDF3C001009A4 /* ZFPlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6D637AF6293EDF3C001009A4 /* AppDelegate.swift */,
+				6D637AF8293EDF3C001009A4 /* SceneDelegate.swift */,
+				6D637AFA293EDF3C001009A4 /* ViewController.swift */,
+				6D637B1029409BCF001009A4 /* VLCPlayerManager.swift */,
+				6D637AFC293EDF3C001009A4 /* Main.storyboard */,
+				6D637AFF293EDF3D001009A4 /* Assets.xcassets */,
+				6D637B01293EDF3D001009A4 /* LaunchScreen.storyboard */,
+				6D637B04293EDF3D001009A4 /* Info.plist */,
+			);
+			path = ZFPlayerDemo;
 			sourceTree = "<group>";
 		};
 		6D83CB2B2936201000AA1015 = {
@@ -196,6 +290,7 @@
 			children = (
 				6D83CB362936201000AA1015 /* VideoPlayerDemo */,
 				6DE30398293A182100E8A60A /* IJKPlayerDemo */,
+				6D637AF5293EDF3C001009A4 /* ZFPlayerDemo */,
 				6D83CB352936201000AA1015 /* Products */,
 				6DE303212936497500E8A60A /* Frameworks */,
 				4017B3EC72F104E865FC9102 /* Pods */,
@@ -207,6 +302,7 @@
 			children = (
 				6D83CB342936201000AA1015 /* VideoPlayerDemo.app */,
 				6DE30397293A182100E8A60A /* IJKPlayerDemo.app */,
+				6D637AF4293EDF3B001009A4 /* ZFPlayerDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -227,6 +323,7 @@
 				6DE3035329371C0400E8A60A /* PlayerAdaptee.swift */,
 				6DE3035529371C4300E8A60A /* VLCPlayerAdaptee.swift */,
 				6DE3035729371C5200E8A60A /* AVKitPlayerAdaptee.swift */,
+				6D1AF84D2941AF1A00B012B5 /* VideoFormat.swift */,
 			);
 			path = VideoPlayerDemo;
 			sourceTree = "<group>";
@@ -248,9 +345,10 @@
 				6DE303272936498E00E8A60A /* CoreGraphics.framework */,
 				6DE303252936498700E8A60A /* AVFoundation.framework */,
 				6DE303232936498200E8A60A /* AudioToolbox.framework */,
-				14947C6882D1C322D3DFD89B /* Pods_VideoPlayerPractice.framework */,
 				71AAC616914B295B36A46FA6 /* Pods_VideoPlayerPractice_VideoPlayerPracticeUITests.framework */,
 				B496DDB574805FD3A5A2607D /* Pods_VideoPlayerPracticeTests.framework */,
+				62CD02BDA78F8C9D603A5D4E /* Pods_VideoPlayerDemo.framework */,
+				ECB3428A5C8D84454F7032A1 /* Pods_VideoPlayerDemo_ZFPlayerDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -284,6 +382,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6D637AF3293EDF3B001009A4 /* ZFPlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D637B05293EDF3D001009A4 /* Build configuration list for PBXNativeTarget "ZFPlayerDemo" */;
+			buildPhases = (
+				F35DD94EA9E3699EB7B43F90 /* [CP] Check Pods Manifest.lock */,
+				6D637AF0293EDF3B001009A4 /* Sources */,
+				6D637AF1293EDF3B001009A4 /* Frameworks */,
+				6D637AF2293EDF3B001009A4 /* Resources */,
+				FBBE4CC82E2641179C4FB79E /* [CP] Copy Pods Resources */,
+				D6A076ACD13CCD450E55D1B6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZFPlayerDemo;
+			productName = ZFPlayerDemo;
+			productReference = 6D637AF4293EDF3B001009A4 /* ZFPlayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		6D83CB332936201000AA1015 /* VideoPlayerDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D83CB5E2936201200AA1015 /* Build configuration list for PBXNativeTarget "VideoPlayerDemo" */;
@@ -330,6 +448,9 @@
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
+					6D637AF3293EDF3B001009A4 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
 					6D83CB332936201000AA1015 = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
@@ -353,11 +474,31 @@
 			targets = (
 				6D83CB332936201000AA1015 /* VideoPlayerDemo */,
 				6DE30396293A182100E8A60A /* IJKPlayerDemo */,
+				6D637AF3293EDF3B001009A4 /* ZFPlayerDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6D637AF2293EDF3B001009A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1AF8472941AD2900B012B5 /* sample.webm in Resources */,
+				6D1AF8442941AD2200B012B5 /* sample.mov in Resources */,
+				6D637B03293EDF3D001009A4 /* LaunchScreen.storyboard in Resources */,
+				6D1AF84B2941AD3200B012B5 /* sample.flv in Resources */,
+				6D1AF8482941AD2B00B012B5 /* sample.mp4 in Resources */,
+				6D1AF84C2941AD3600B012B5 /* networkSamples.plist in Resources */,
+				6D1AF84A2941AD2F00B012B5 /* sample.avi in Resources */,
+				6D1AF8462941AD2700B012B5 /* sample.rmvb in Resources */,
+				6D637B00293EDF3D001009A4 /* Assets.xcassets in Resources */,
+				6D1AF8492941AD2D00B012B5 /* sample.wmv in Resources */,
+				6D637AFE293EDF3C001009A4 /* Main.storyboard in Resources */,
+				6D1AF8452941AD2500B012B5 /* sample.mkv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6D83CB322936201000AA1015 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -405,15 +546,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VideoPlayerPractice/Pods-VideoPlayerPractice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-VideoPlayerDemo/Pods-VideoPlayerDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VideoPlayerPractice/Pods-VideoPlayerPractice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-VideoPlayerDemo/Pods-VideoPlayerDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VideoPlayerPractice/Pods-VideoPlayerPractice-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VideoPlayerDemo/Pods-VideoPlayerDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		76E4235B8E5B9CF2B8DB1A00 /* [CP] Check Pods Manifest.lock */ = {
@@ -431,16 +572,84 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VideoPlayerPractice-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-VideoPlayerDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D6A076ACD13CCD450E55D1B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoPlayerDemo-ZFPlayerDemo/Pods-VideoPlayerDemo-ZFPlayerDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoPlayerDemo-ZFPlayerDemo/Pods-VideoPlayerDemo-ZFPlayerDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VideoPlayerDemo-ZFPlayerDemo/Pods-VideoPlayerDemo-ZFPlayerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F35DD94EA9E3699EB7B43F90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VideoPlayerDemo-ZFPlayerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBBE4CC82E2641179C4FB79E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoPlayerDemo-ZFPlayerDemo/Pods-VideoPlayerDemo-ZFPlayerDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoPlayerDemo-ZFPlayerDemo/Pods-VideoPlayerDemo-ZFPlayerDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VideoPlayerDemo-ZFPlayerDemo/Pods-VideoPlayerDemo-ZFPlayerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6D637AF0293EDF3B001009A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D637AFB293EDF3C001009A4 /* ViewController.swift in Sources */,
+				6D1AF8502941AF1A00B012B5 /* VideoFormat.swift in Sources */,
+				6D637AF7293EDF3C001009A4 /* AppDelegate.swift in Sources */,
+				6D637B1129409BCF001009A4 /* VLCPlayerManager.swift in Sources */,
+				6D637AF9293EDF3C001009A4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6D83CB302936201000AA1015 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -449,6 +658,7 @@
 				6DE30350293718E600E8A60A /* PlayerListViewController.swift in Sources */,
 				6D83CB382936201000AA1015 /* AppDelegate.swift in Sources */,
 				6DE3035829371C5200E8A60A /* AVKitPlayerAdaptee.swift in Sources */,
+				6D1AF84E2941AF1A00B012B5 /* VideoFormat.swift in Sources */,
 				6DE3035429371C0400E8A60A /* PlayerAdaptee.swift in Sources */,
 				6DE3035629371C4300E8A60A /* VLCPlayerAdaptee.swift in Sources */,
 				6D83CB3A2936201000AA1015 /* SceneDelegate.swift in Sources */,
@@ -464,6 +674,7 @@
 				6DE303DA293A1A5A00E8A60A /* PlayerAdaptee.swift in Sources */,
 				6DE303D2293A19DA00E8A60A /* PlayerListViewController.swift in Sources */,
 				6DE303CF293A19D100E8A60A /* AppDelegate.swift in Sources */,
+				6D1AF84F2941AF1A00B012B5 /* VideoFormat.swift in Sources */,
 				6DE303D0293A19D300E8A60A /* SceneDelegate.swift in Sources */,
 				6DE303D9293A1A2500E8A60A /* IJKPlayerAdaptee.swift in Sources */,
 				6DE303D6293A19E800E8A60A /* PlayerAdapter.swift in Sources */,
@@ -473,6 +684,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		6D637AFC293EDF3C001009A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D637AFD293EDF3C001009A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D637B01293EDF3D001009A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D637B02293EDF3D001009A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		6D83CB3D2936201000AA1015 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -492,6 +719,62 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6D637B06293EDF3D001009A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 208ED1846A666F097922E986 /* Pods-VideoPlayerDemo-ZFPlayerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZFPlayerDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xue.ZFPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D637B07293EDF3D001009A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A40EF8997C258BBFE5FDD581 /* Pods-VideoPlayerDemo-ZFPlayerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZFPlayerDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xue.ZFPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		6D83CB5C2936201200AA1015 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -608,7 +891,7 @@
 		};
 		6D83CB5F2936201200AA1015 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5C9EA11CC11CF080358696F /* Pods-VideoPlayerPractice.debug.xcconfig */;
+			baseConfigurationReference = 765295D55122148E6B79DD2B /* Pods-VideoPlayerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -640,7 +923,7 @@
 		};
 		6D83CB602936201200AA1015 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A07443823FA007D3EDEC4EA /* Pods-VideoPlayerPractice.release.xcconfig */;
+			baseConfigurationReference = 328FB013150C5F0C5317BD3E /* Pods-VideoPlayerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -737,6 +1020,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6D637B05293EDF3D001009A4 /* Build configuration list for PBXNativeTarget "ZFPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D637B06293EDF3D001009A4 /* Debug */,
+				6D637B07293EDF3D001009A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6D83CB2F2936201000AA1015 /* Build configuration list for PBXProject "VideoPlayerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

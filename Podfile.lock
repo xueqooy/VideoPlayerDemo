@@ -1,16 +1,25 @@
 PODS:
   - MobileVLCKit (3.5.0)
+  - ZFPlayer/AVPlayer (4.1.4):
+    - ZFPlayer/Core
+  - ZFPlayer/ControlView (4.1.4):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (4.1.4)
 
 DEPENDENCIES:
   - MobileVLCKit
+  - ZFPlayer/AVPlayer (~> 4.0)
+  - ZFPlayer/ControlView (~> 4.0)
 
 SPEC REPOS:
   trunk:
     - MobileVLCKit
+    - ZFPlayer
 
 SPEC CHECKSUMS:
   MobileVLCKit: f7a39ede91e47e227f8142343b311eb8c634f057
+  ZFPlayer: 5cf39e8d9f0c2394a014b0db4767b5b5a6bffe13
 
-PODFILE CHECKSUM: 63f4cb97a1cc182826f9e538a7bcdfda7bc7459f
+PODFILE CHECKSUM: 52908d1a05ad671fc217575a58a67629ff8e080a
 
 COCOAPODS: 1.11.3

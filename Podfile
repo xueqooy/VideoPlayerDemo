@@ -7,5 +7,12 @@ target 'VideoPlayerDemo' do
 
   # Pods for VideoPlayerDemo
   pod 'MobileVLCKit'
-
+  
+  target 'ZFPlayerDemo' do
+    
+    pod 'ZFPlayer/ControlView', '~>4.0'
+    pod 'ZFPlayer/AVPlayer', '~>4.0'
+    
+  end
+  
 end
